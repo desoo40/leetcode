@@ -1,4 +1,5 @@
-using System;
+using System.Linq;
+
 public class Solution_1920 {
     public int[] BuildArray(int[] nums) {
         var len = nums.Count();
