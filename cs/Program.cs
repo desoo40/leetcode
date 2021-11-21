@@ -6,7 +6,9 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(1 / 2);
+            var sol = new Solution_7();
+            Console.WriteLine(int.MaxValue);
+            Console.WriteLine(sol.Reverse(int.MinValue));
         }
     }
 }
