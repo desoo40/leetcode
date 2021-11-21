@@ -13,8 +13,6 @@
 
             x /= 10;
         }
-
-       
         
         return ans == income;
     }

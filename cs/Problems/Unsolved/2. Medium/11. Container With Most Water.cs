@@ -2,7 +2,6 @@ using System;
 
 public class Solution_11 {
     public int MaxArea(int[] height) {
-        
         var len = height.Length;
         var maxSquare = 0;
         var heightestInd = 0;
@@ -27,8 +26,6 @@ public class Solution_11 {
                 if (currSquare > maxSquare)
                     maxSquare = currSquare;
             }
-
-            
         }
 
         return maxSquare;
