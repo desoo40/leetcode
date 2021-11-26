@@ -16,6 +16,10 @@ public class Solution_36 {
                 var currElVertic = board[j][i];
                 if (hashSetVertic.Contains(currElVertic)) return false;
                 if (currElVertic != '.') hashSetVertic.Add(currElVertic);
+
+                var currElQuadro = board[i % 3 + j / 3][i / 3 + j % 3];
+                if (hashSetQuadro.Contains(currElQuadro)) return false;
+                if (currElQuadro != '.') hashSetVertic.Add(currElQuadro);
             }
         }
 
