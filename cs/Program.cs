@@ -6,9 +6,8 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            var sol = new Solution_7();
-            Console.WriteLine(int.MaxValue);
-            Console.WriteLine(sol.Reverse(int.MinValue));
+            var sol = new Solution_1137();
+            Console.WriteLine(sol.Tribonacci(4));
         }
     }
 }

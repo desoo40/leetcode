@@ -18,6 +18,6 @@ public class Solution_53 {
                 maxSum = currMax;
         }
 
-        return maxSum;s
+        return maxSum;
     }
 }

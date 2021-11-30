@@ -17,8 +17,9 @@ public class Solution_17 {
         {
             for (int j = i; j < digits.Length; j++)
             {
-                abc
             }
         }
+
+        return null;
     }
 }
