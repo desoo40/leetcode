@@ -6,8 +6,9 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            var sol = new Solution_1137();
-            Console.WriteLine(sol.Tribonacci(4));
+            var sol = new Solution_45();
+            var n = new int[]{2,3,1,1,4};
+            Console.WriteLine(sol.Jump(n));
         }
     }
 }
