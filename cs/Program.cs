@@ -6,9 +6,7 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            var sol = new Solution_45();
-            var n = new int[]{2,3,1,1,4};
-            Console.WriteLine(sol.Jump(n));
+            Console.WriteLine("kek");
         }
     }
 }
