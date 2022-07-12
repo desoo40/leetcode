@@ -7,8 +7,8 @@ namespace cs
         static void Main(string[] args)
         {
             Console.WriteLine("kek");
-            // var s = new Solution_35();
-            // s.SearchInsert(new int[] { 1, 3, 5, 6 }, 5);
+            var s = new Solution_977();
+            s.SortedSquares(new int[] { -1, 3, 5, 6 });
         }
     }
 }
