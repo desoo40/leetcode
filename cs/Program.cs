@@ -6,8 +6,8 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            var s = new Solution_392();
-            s.IsSubsequence("b", "abc");
+            var s = new Solution_202();
+            var a = s.IsHappy(19);
         }
     }
 }
