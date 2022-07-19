@@ -7,7 +7,7 @@ namespace cs
         static void Main(string[] args)
         {
             var s = new Solution_389();
-            var a = s.FindTheDifference("abc", "abcd");
+            var a = s.FindTheDifference("imadechanges", "abcd");
         }
     }
 }
